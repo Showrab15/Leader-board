@@ -216,6 +216,10 @@ align-items: right;
     flex-direction: column;
 }
 
+hr{
+    width: 200px;
+    margin-left: 20px;
+}
 }
 
 
