@@ -227,30 +227,34 @@ hr{
 
 @media only screen and (min-width: 688px) and (max-width: 992px) {
 
-    .courses{
-        grid-template-columns: repeat(2, 1fr);
-        grid-row-gap: 20px;
-    }
+.courses{
+grid-template-columns: repeat(2, 1fr);
+grid-row-gap: 20px;
+}
 
-    .players{
-        grid-template-columns: repeat(2, 1fr);
-        grid-row-gap: 30px;
-        grid-column-gap: 30px;
-    }
+.players{
+ grid-template-columns: repeat(2, 1fr);
+grid-row-gap: 30px;
+grid-column-gap: 30px;
+}
 
-    .blogs{
-        grid-template-columns: repeat(1, 1fr);
-    }
-        .courses .course-banner img {
-            width: 224px;
-            height: 104px;
-            margin-top: 5px;
+.blogs{
+grid-template-columns: repeat(1, 1fr);
+}
 
-        }
+.courses .course-banner img {
+width: 224px;
+height: 104px;
+margin-top: 5px;
+}
     
-    .container{
-        width: 100%;
-        height: 100%;
-    }
+.container{
+width: 100%;
+height: 100%;
+}
+
+hr{
+    margin-left: 30px;
+}
     
 }
