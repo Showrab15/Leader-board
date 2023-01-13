@@ -189,7 +189,7 @@ align-items: right;
 
 .player{
     display: flex;
-    flex-direction: column;
+    flex-direction: none;
 }
 
 
@@ -218,7 +218,7 @@ align-items: right;
 
 hr{
     width: 200px;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 }
 
@@ -245,6 +245,7 @@ hr{
             width: 224px;
             height: 104px;
             margin-top: 5px;
+
         }
     
     .container{
