@@ -234,7 +234,8 @@ hr{
 
     .players{
         grid-template-columns: repeat(2, 1fr);
-        grid-row-gap: 20px;
+        grid-row-gap: 30px;
+        grid-column-gap: 30px;
     }
 
     .blogs{
